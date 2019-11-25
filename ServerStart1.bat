@@ -1,3 +1,0 @@
-@echo off & color 0E
-@@java -Xms1G -Xmx2G -XX:SurvivorRatio=16 -XX:+UseG1GC -cp l1jserver.jar;lib\JTattoo.jar;lib\xmlapi;lib\c3p0-0.9.1.2.jar;lib\netty-all-4.0.29.Final.jar;lib\commons-dbcp-1.4.jar;lib\commons-pool-1.6.jar;lib\mysql-connector-java-5.1.21-bin.jar;lib\javolution.jar;lib\netty-all-4.0.29.Final.jar;lib\commons-codec-1.11.jar;lib\netty-3.6.2.Final.jar;lib\org.eclipse.swt.win32.win32.x86_64_3.100.1.v4234e.jar server.manager.eva
-@pause
